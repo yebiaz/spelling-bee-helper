@@ -1,0 +1,6 @@
+streamlit>=1.36
+scikit-learn>=1.3
+pandas>=2.0
+wordfreq>=3.0
+pytesseract>=0.3.10
+pillow>=10.0
