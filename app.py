@@ -452,6 +452,10 @@ with left:
     if submitted and guess:
         st.session_state.verdict = game.userGuess(guess)
         st.session_state.lastFound = guess.strip().lower()
+        # The progress panel is drawn further up this script than the guess form,
+        # so by the time a guess is accepted the score and word count above have
+        # already rendered from the previous state. Redraw so they include it.
+        st.rerun()
 
     if st.session_state.verdict:
         good = st.session_state.verdict == "Congrats, found!"
