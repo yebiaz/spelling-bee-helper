@@ -175,8 +175,7 @@ so it lasts until you stop the server.
 
 ## Notes
 
-> The word list is [enable1](https://github.com/dolph/dictionary), the same one the notebook
-used. Frequencies come from `wordfreq` (Zipf scale, 0–7).
+> The word list chosen to be used is [enable1](https://github.com/dolph/dictionary). Frequencies come from `wordfreq` (Zipf scale, 0–7).
 
 > Not affiliated with, endorsed by, or sponsored by The New York Times.
 > "The New York Times" and "Spelling Bee" are trademarks of The New York Times Company.
